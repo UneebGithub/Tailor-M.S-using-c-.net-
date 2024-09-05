@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="tailorMS">
+  <DataContextMoniker Name="/tailorMSDataContext" />
+  <nestedChildShapes>
+    <classShape Id="7d970257-f3ec-4a39-87df-d5101e3b2af6" absoluteBounds="2.25, 1.75, 2, 1.1939925130208333">
+      <DataClassMoniker Name="/tailorMSDataContext/loginnn" />
+      <nestedChildShapes>
+        <elementListCompartment Id="7d2f7ecc-edda-4aad-a2c7-5a3606ee4af4" absoluteBounds="2.265, 2.21, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="3d81222b-2e7e-4b82-bb6b-4b113dcbfd12" absoluteBounds="4.5, 0.5, 2, 3.3093082682291666">
+      <DataClassMoniker Name="/tailorMSDataContext/userEnter" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a5212a7d-d754-4d75-961c-7fc970b8f1ec" absoluteBounds="4.515, 0.96, 1.9700000000000002, 2.7493082682291665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

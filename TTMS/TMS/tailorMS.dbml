@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="tailorMS" Class="tailorMSDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=DESKTOP-PDSAB38\SQLEXPRESS;Initial Catalog=tailorMS;Integrated Security=True;Trust Server Certificate=True" SettingsObjectName="TMS.Properties.Settings" SettingsPropertyName="tailorMSConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.loginnn" Member="loginnns">
+    <Type Name="loginnn">
+      <Column Name="username" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="pass" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.userEnter" Member="userEnters">
+    <Type Name="userEnter">
+      <Column Name="phone" Type="System.Int64" DbType="BigInt NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="FullName" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Address_User" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="collar" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="chest" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="waist" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="hip" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="arm" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="sleeves" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="back" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="cuffs" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="lengths" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="yore" Type="System.Double" DbType="Float" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>
